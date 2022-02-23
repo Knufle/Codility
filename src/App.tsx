@@ -1,4 +1,5 @@
 import './App.css';
+import ClassAutoComplete from './components/AutoComplete/ClassAutoComplete';
 import FunctionAutoComplete from './components/AutoComplete/FunctionAutoComplete';
 import ClassCounter from './components/Counter/ClassCounter';
 import FunctionCounter from './components/Counter/FunctionCounter';
@@ -17,7 +18,8 @@ function App() {
         <FunctionToDoList />
       </div> */}
       <div>
-        <FunctionAutoComplete />
+        {/* <FunctionAutoComplete /> */}
+        <ClassAutoComplete />
       </div>
     </div>
   );
