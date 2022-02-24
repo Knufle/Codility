@@ -54,6 +54,7 @@ export default class ClassAutoComplete extends Component<Props, State> {
   render() {
     return (
       <div className="wrapper">
+        <h2>Class AutoComplete</h2>
         <div className="control">
           <input
             className="input"

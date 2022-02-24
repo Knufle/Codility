@@ -31,6 +31,7 @@ export default function FunctionAutoComplete() {
 
   return (
     <div className="wrapper">
+      <h2>Function AutoComplete</h2>
       <div className="control">
         <input
           className="input"

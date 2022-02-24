@@ -34,7 +34,7 @@ export default function FunctionToDoList() {
   return (
     <>
       <div>
-        <h2>FunctionClass Todo List</h2>
+        <h2>Function Todo List</h2>
         <input ref={inputEl} type="text" />
         <button onClick={handleAddToDo}>Add</button>
         <h3>
