@@ -1,3 +1,5 @@
+import axios from 'axios';
+import { useEffect } from 'react';
 import './App.css';
 import ClassAutoComplete from './components/AutoComplete/ClassAutoComplete';
 import FunctionAutoComplete from './components/AutoComplete/FunctionAutoComplete';
@@ -11,6 +13,12 @@ import FunctionToDoList from './components/ToDoList/FunctionToDoList';
 import { CandidatesContextProvider } from './store/candidates-context';
 
 function App() {
+  useEffect(() => {
+    axios.get('https://stackblitz-mock-api.herokuapp.com/').then((res) => {
+      console.log(res.data);
+    });
+  }, []);
+
   return (
     <FunctionHero>
       {/* <div>
