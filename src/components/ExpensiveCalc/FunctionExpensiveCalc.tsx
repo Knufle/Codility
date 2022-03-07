@@ -22,7 +22,7 @@ export default function FunctionExpensiveCalc() {
 
   return (
     <>
-      <h2>Function ExpensiveCalc</h2>
+      <h2>ExpensiveCalc</h2>
       <div>
         <input type="number" value={number} onChange={handleNumberChange} />{' '}
         times 10 is {multipliedNumber}

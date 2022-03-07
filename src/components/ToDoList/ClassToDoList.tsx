@@ -53,7 +53,7 @@ export default class ClassToDoList extends Component<Props, State> {
     return (
       <>
         <div>
-          <h2>Class Todo List</h2>
+          <h2>Todo List</h2>
           <input ref={this.inputEl} type="text" />
           <button onClick={this.addToDo.bind(this)}>Add</button>
           <h3>

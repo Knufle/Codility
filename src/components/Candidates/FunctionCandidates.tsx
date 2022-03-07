@@ -20,7 +20,7 @@ export default function FunctionCandidates() {
   // return <FunctionCandidatesList candidatesList={candidatesList} />;
   return (
     <>
-      <h2>Function CandidatesList</h2>
+      <h2>CandidatesList</h2>
       <FunctionCandidatesList />
     </>
   );

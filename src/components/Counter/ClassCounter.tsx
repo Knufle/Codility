@@ -24,7 +24,7 @@ export default class ClassCounter extends Component<Props, State> {
   render() {
     return (
       <div>
-        <h2>Class Counter</h2>
+        <h2>Counter</h2>
         <h3>{this.state.counter}</h3>
         <button onClick={this.increment.bind(this)}>Click</button>
       </div>

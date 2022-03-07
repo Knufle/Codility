@@ -22,23 +22,21 @@ function App() {
 
   return (
     <FunctionHero>
+      <h1>Function Components</h1>
+      <div>
+        <FunctionCounter />
+        <FunctionToDoList />
+        <FunctionAutoComplete />
+        <CandidatesContextProvider>
+          <FunctionCandidates />
+        </CandidatesContextProvider>
+        <FunctionExpensiveCalc />
+      </div>
+      <h1>Class Components</h1>
       <div>
         <ClassCounter />
-        <FunctionCounter />
-      </div>
-      <div>
         <ClassToDoList />
-        <FunctionToDoList />
-      </div>
-      <div>
         <ClassAutoComplete />
-        <FunctionAutoComplete />
-      </div>
-      <CandidatesContextProvider>
-        <FunctionCandidates />
-      </CandidatesContextProvider>
-      <div>
-        <FunctionExpensiveCalc />
       </div>
     </FunctionHero>
   );
