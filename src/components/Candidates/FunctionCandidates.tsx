@@ -18,5 +18,10 @@ export default function FunctionCandidates() {
   }, []);
 
   // return <FunctionCandidatesList candidatesList={candidatesList} />;
-  return <FunctionCandidatesList />;
+  return (
+    <>
+      <h2>Function CandidatesList</h2>
+      <FunctionCandidatesList />
+    </>
+  );
 }
