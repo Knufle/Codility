@@ -3,11 +3,12 @@ import { useMemo, useState } from 'react';
 export default function FunctionExpensiveCalc() {
   const [number, setNumber] = useState(1);
   const [counter, setCounter] = useState(0);
+  const [expensiveFuncCounter, setExpensiveFuncCounter] = useState(0);
 
   const multipliedNumber = useMemo(() => multiplyByTen(number), [number]);
 
   function multiplyByTen(number: number) {
-    console.log('multiplyByTen(number) called!');
+    setExpensiveFuncCounter((prevCounter) => prevCounter + 1);
     return number * 10;
   }
 
@@ -27,6 +28,7 @@ export default function FunctionExpensiveCalc() {
         times 10 is {multipliedNumber}
         <button onClick={handleReRender}>Re-render</button>
         <p>Re-rendered {counter} times</p>
+        <p>Expensive function called {expensiveFuncCounter} times</p>
       </div>
     </>
   );
