@@ -13,7 +13,7 @@ export default function FunctionCandidates() {
     ctx.handleCandidatesList([
       { name: 'John', age: 24, skill: 'JavaScript' },
       { name: 'Ana', age: 20, skill: 'Go' },
-      { name: 'Jack', age: 27, skill: 'Java' },
+      { name: 'Jack', age: 28, skill: 'Java' },
     ]);
   }, []);
 
