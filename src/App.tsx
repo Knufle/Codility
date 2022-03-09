@@ -6,6 +6,7 @@ import FunctionAutoComplete from './components/AutoComplete/FunctionAutoComplete
 import FunctionCandidates from './components/Candidates/FunctionCandidates';
 import ClassCounter from './components/Counter/ClassCounter';
 import FunctionCounter from './components/Counter/FunctionCounter';
+import FunctionCurriedText from './components/CurriedText/FunctionCurriedCounter';
 import FunctionExpensiveCalc from './components/ExpensiveCalc/FunctionExpensiveCalc';
 import ClassHero from './components/Hero/ClassHero';
 import FunctionHero from './components/Hero/FunctionHero';
@@ -25,6 +26,7 @@ function App() {
       <h1>Function Components</h1>
       <div>
         <FunctionCounter />
+        <FunctionCurriedText />
         <FunctionToDoList />
         <FunctionAutoComplete />
         <CandidatesContextProvider>
