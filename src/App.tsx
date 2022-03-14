@@ -7,6 +7,7 @@ import FunctionCandidates from './components/Candidates/FunctionCandidates';
 import ClassCounter from './components/Counter/ClassCounter';
 import FunctionCounter from './components/Counter/FunctionCounter';
 import FunctionCurriedText from './components/CurriedText/FunctionCurriedCounter';
+import { ExampleNav } from './components/Dropdown/Dropdown';
 import FunctionExpensiveCalc from './components/ExpensiveCalc/FunctionExpensiveCalc';
 import ClassHero from './components/Hero/ClassHero';
 import FunctionHero from './components/Hero/FunctionHero';
@@ -36,6 +37,7 @@ function App() {
       </div>
       <h1>Class Components</h1>
       <div>
+        <ExampleNav />
         <ClassCounter />
         <ClassToDoList />
         <ClassAutoComplete />
